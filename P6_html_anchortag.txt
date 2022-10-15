@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Document</title>
+</head>
+<style>
+    div{
+        color:black;
+        background-color: rgb(234, 38, 201);
+        font-size:30px;
+        text-align: center;
+        margin-top: 40px;
+        margin-right: 250px;
+        margin-left: 250px;
+        border: 2px solid black;
+    }
+</style>
+<body bgcolor="#A1C3D1">
+   
+    <h1 style="color:black;background-color:#C96567;text-align: center;">"MYSELF JAYASHRI PATIL"</h1>
+    <h2  style="color:black;background-color:#C96567;text-align: center;">Contact me here</h2>
+    <div>
+        <a href="https://www.linkedin.com/in/jayashri-patil-b54437249">linkedin account</a>
+    </div><hr>
+    <div>
+        <a href="https://github.com/Jayashripatil02">github account</a>
+    </div><hr>
+    <div>
+        <a href="mailto:jayashripatil725@gmail.com">email account</a>
+    </div><hr>
+    <div>
+
+        <a href="jayu6.html">new page</a>
+    </div><hr>
+</body>
+</html>

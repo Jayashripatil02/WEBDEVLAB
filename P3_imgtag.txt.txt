@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<style> 
+body{ 
+background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg); 
+} 
+img{ 
+height: 300px; 
+width: 500px; 
+margin-left: 75px; 
+opacity: 3; 
+border:inset; 
+} 
+</style> 
+<title>Document</title> 
+</head> 
+<body> 
+<h1 style="color:yellow; text-align:center;" > 
+Lets learn about image tag. 
+</h1><hr> 
+<img src="https://images.unsplash.com/photo-1604085572504-a392ddf0d86a?ixlib=rb-4.0.3&ixid=MnwxMjA3fD
+B8MHxzZWFyY2h8Mnx8b3JhbmdlJTIwZmxvd2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="flowers p
+ic"> 
+<img src="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?cs=srgb&dl=pexels-pixabay-5
+6866.jpg&fm=jpg" alt=".."> 
+</body> 
+</html>

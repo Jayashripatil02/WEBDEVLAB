@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title>Document</title> 
+<link rel="stylesheet" href="new.css"> 
+</head> 
+<body> 
+<div class="mericls"id="poemhead"> 
+<h1> 
+English Proverb 
+</h1> 
+</div> 
+<div class="mericls"id="poem"> 
+<p> 
+<i> 
+a small is beatifull. <br> a rising tide lifts all boats. <br> 
+<u> if you can't stand the heat. get out of the kitchen.</u> <br> 
+if you pay peanuts, you get monkeys. if youre not part of the solution, you're part of the problem. 
+</i> 
+</p> 
+</div> 
+<div class="mericls"id="auther"> 
+<h2> 
+By Anonymous 
+</h2> 
+</div> 
+</body> 
+</html>
+
+/* element selector */ 
+body{ 
+    background-color:rgb(212, 200, 89); 
+    ; 
+    } 
+    p{ 
+    font-size:20px; 
+    } 
+    h2{ 
+    font-size:20px; 
+    } 
+    /* group selector */ 
+    h1,h2,p { 
+    font-size:30px; 
+    } 
+    /* class selector */ 
+    .mericls{ 
+    border:3px solid black; 
+    margin-left:300px; 
+    margin-right:300px; 
+    margin-bottom:30px; 
+    margin-top:50px; 
+    } 
+    /* id selector */ 
+    #poemhead{ 
+    color:green; 
+    } 
+    #poem,#auther{ 
+    color:orangered; 
+    } 
+    /* universal selector */ 
+    *{ 
+    text-align:center; 
+    } 
+    /* child selector */ 
+    p > i > u { 
+    color:green; 
+    }

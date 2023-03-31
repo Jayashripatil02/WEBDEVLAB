@@ -1,0 +1,61 @@
+On key press 
+<!DOCTYPE html>
+<html>
+<body>
+<p>Use the HTML DOM to assign an "onkeypress" event to an input 
+element.</p>
+<p>Press a key inside the text field to set a red background color.</p>
+<input type="text" id="demo">
+<script>
+document.getElementById("demo").onkeypress = function() 
+{myFunction()};
+function myFunction() {
+ document.getElementById("demo").style.backgroundColor = "red";
+}
+</script>
+</body>
+</html>
+On mouse over
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML DOM Events</h1>
+<h2>The onmouseover Event</h2>
+<p>Use the HTML DOM to assign an "onmouseover" and "onmouseout" event to a h1 
+element.</p>
+<h1 id="demo">Mouse over me</h1>
+<script>
+document.getElementById("demo").onmouseover = function() {mouseOver()};
+document.getElementById("demo").onmouseout = function() {mouseOut()};
+function mouseOver() {
+ document.getElementById("demo").style.color = "red";
+}
+function mouseOut() {
+ document.getElementById("demo").style.color = "black";
+}
+</script>
+</body>
+</html>
+Mouse Out
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML DOM Events</h1>
+<h2>The onmouseover Event</h2>
+<p>Use the HTML DOM to assign an "onmouseover" and 
+"onmouseout" event to a h1 element.</p>
+<h1 id="demo">Mouse over me</h1>
+<script>
+document.getElementById("demo").onmouseover = function() 
+{mouseOver()};
+document.getElementById("demo").onmouseout = function() 
+{mouseOut()};
+function mouseOver() {
+ document.getElementById("demo").style.color = "red";
+}
+function mouseOut() {
+ document.getElementById("demo").style.color = "black";
+}
+</script>
+</body>
+</html>
